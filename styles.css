@@ -90,3 +90,44 @@ li {
 	color: #f9faf8;
 	font-weight: bold;
 }
+
+.section-info {
+	text-align: center;
+	padding: 10px;
+	padding-bottom: 150px;
+}
+
+.section-info__header {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1f2937;
+	padding: 20px;
+}
+
+.section-info__grid {
+	display: flex;
+	justify-content: center;
+	gap: 80px;
+}
+
+.section-info__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px;
+}
+
+.section-info__text {
+	color: gray;
+	margin-top: 10px;
+	font-weight: bolder;
+	max-width: 200px;
+}
+
+img {
+	width: 100%;
+	max-width: 200px;
+	height: auto;
+	border-radius: 5px;
+}
