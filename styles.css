@@ -1,6 +1,5 @@
 * {
 	font-family: Roboto;
-	outline: solid black 2px;
 }
 
 body {
@@ -51,6 +50,7 @@ li {
 	height: 200px; 
 	flex-wrap: wrap;
 	gap: 10px;
+	align-self: start;
 }
 
 .text {
@@ -70,13 +70,10 @@ li {
 	text-decoration: none;
 }
 
-.image {
-	width: 570px;
-	height: 200px;
-	background-color: grey;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.section-hero__image {
+	width: auto;
+	height: 330px;
+	border-radius: 10px;
 }
 
 .button {
@@ -98,7 +95,7 @@ li {
 
 .section-info {
 	text-align: center;
-	padding: 10px;
+	padding: 30px 10px;
 	padding-bottom: 150px;
 }
 
@@ -128,13 +125,15 @@ li {
 	margin-top: 10px;
 	font-weight: bolder;
 	max-width: 200px;
+	height: 38px;
 }
 
-img {
+img.section-info__image {
 	width: 100%;
-	max-width: 200px;
-	height: auto;
-	border-radius: 5px;
+	height: 100%;
+	max-width: 230px;
+	max-height: 180px;
+	border-radius: 10px;
 }
 
 /* 3rd section: Quote section and author. */
