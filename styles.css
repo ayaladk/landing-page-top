@@ -91,6 +91,7 @@ li {
 	border-radius: 5px;
 	color: #f9faf8;
 	font-weight: bold;
+	font-size: 16px;
 }
 
 /* 2nd section: Title about images and information. */
@@ -111,7 +112,7 @@ li {
 .section-info__grid {
 	display: flex;
 	justify-content: center;
-	gap: 80px;
+	gap: 40px;
 }
 
 .section-info__item {
@@ -161,4 +162,66 @@ img {
 	font-weight: bold;
 	color: #1f2937;
 	align-self: end;
+}
+
+/* 4th section: Sign up texts and button. */
+
+.section-signup {
+	padding: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-signup__container {
+	display: flex;
+	justify-content: center;
+	padding: 40px 0px;
+	background-color: #3882F6;
+	max-width: 1070px;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.section-signup__text {
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	width: 100%;
+}
+
+.section-signup__title {
+	font-size: 24px;
+	font-weight: bold;
+	color: #F9FAF8;
+}
+
+.section-signup__subtext {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.section-signup-button__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-signup__button {
+	padding: 5px 30px;
+	background-color: #3882F6;
+	border-radius: 5px;
+	color: #F9FAF8;
+	font-weight: bold;
+	outline: #f9faf8 1px;
+	font-size: 16px;
+}
+
+/* 5th section: footer. */
+
+.section-footer {
+	padding: 40px 100px;
+	text-align: center;
+	background-color: #1F2937;
+	color: #E5E7EB;
 }
